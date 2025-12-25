@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/CV__Pradeep.pdf
       headings:
         about: ''
         education: ''
@@ -41,11 +41,13 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am a Civil Engineer specializing in traffic engineering, construction cost estimation, and infrastructure design. My research focuses on traffic intersection performance evaluation and optimization using microsimulation techniques.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My undergraduate research project involved performance evaluation of signalized intersections and developing enhancement measures. I led a team of 5 to conduct traffic volume data analysis and developed calibrated traffic flow simulations using SIDRA Intersection, optimizing traffic signal timing and lane configurations. This work achieved a ~20% decrease in intersection delay with lane reconfiguration and optimized signal timing.
 
-        Please reach out to collaborate 😃
+        I have also worked on highway expansion projects, performing traffic performance analysis using Measures of Effectiveness (MOE) such as delay, Level of Service (LOS), and queue length, analyzing future demand scenarios over 10 and 20 years.
+
+        Please reach out to collaborate on traffic engineering and infrastructure projects 😃
     design:
       columns: '1'
   - block: collection
@@ -69,44 +71,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

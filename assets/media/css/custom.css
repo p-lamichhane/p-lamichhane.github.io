@@ -1,0 +1,16 @@
+/* Hide Hugo Blox Builder attribution */
+footer a[href*="hugoblox.com"],
+footer a[href*="hugoblox.com/templates"],
+footer a[data-hbx="poweredby_brand"],
+footer a[data-hbx="poweredby_cta"] {
+  display: none !important;
+}
+
+/* Hide parent elements containing Hugo Blox attribution */
+footer p:has(a[data-hbx="poweredby_brand"]),
+footer div:has(a[data-hbx="poweredby_brand"]),
+footer span:has(a[data-hbx="poweredby_brand"]),
+footer p:has(a[href*="hugoblox.com/templates"]),
+footer div:has(a[href*="hugoblox.com/templates"]) {
+  display: none !important;
+}
